@@ -1,0 +1,170 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+/*.bgimage{
+	background-image: url('KKR.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+*/
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 30%;
+	line-height: 100px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+	
+
+}
+
+#list :hover{
+
+	color: yellow;
+}
+
+.rightmenu ul li:hover{
+	color: yellow;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+}
+
+.text h4{
+
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 70px;
+}
+
+
+.heading{
+	width : 50%;
+	margin : 30px auto;
+	text-align : center;
+	color : #6b8e23;
+	background : #FFF8DC;
+	border : 2px solid #6b8e23
+	border-radius : 20px;
+
+}
+
+form {
+	width : 80%;
+	margin : 30px auto;
+	border-radius:  5px;
+	padding: 10px;
+	background: #black;
+	border : 1px solid #dashed;
+}
+
+.task_input{
+	width : 70%;
+	height: 15px;
+	padding: 10px;
+	/*border: 2px solid #white; */
+	border-radius: 5px;
+
+}
+
+.task_input1{
+	width : 5%;
+	height: 15px;
+	padding: 10px;
+	/*border: 2px solid #6B8E23; */
+	border-radius: 5px;
+}
+
+.add_btn{
+	height : 39px;
+	background: #blue;
+	color: brown;
+	/*border: 2px solid brown; */
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+
+
+table {
+	width : 80%;
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+
+tr{
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th, td{
+	border: none;
+	height : 30px;
+	padding : 2px;
+}
+
+tr:hover{
+	background: #e9e9e9;
+}
+
+.task{
+	text-align: left;
+}
+
+.delete {
+	text-align: center;
+
+}
+
+.delete a{
+	color:  white;
+	background: #a52a21;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+	margin-left: 15%;
+}
